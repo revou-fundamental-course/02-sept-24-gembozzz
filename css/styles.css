@@ -2,31 +2,63 @@
 
 .main-header {
     text-align: center;
+    font-family: sans-serif;
 }
 
 .selection-content {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .selection-btn {
     height: 30px;
     width: -webkit-fill-available;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .bisque-color {
     background-color: cornflowerblue;
+    color: white;
 }
 
 .aqua-color {
     background-color: white;
+    color: cornflowerblue;
+}
+
+p {
+    padding : 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+label {
+    font-family: sans-serif;
+}
+
+hr {
+    color: cornflowerblue;
+}
+
+label {
+    padding : 10px;
+    margin: 10px;
+}
+
+.rumus {
+    text-align: center;
+    font-weight: bold;
+}
+
+.luas-segitiga-form-header {
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .luas-segitiga-header {
     color: white;
+    font-family: sans-serif;
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
@@ -53,14 +85,14 @@
 }
 
 .input-wrapper {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .input-wrapper>input {
-    width: 65%;
+    width: 55%;
 }
 
 input[type=number] {
@@ -72,12 +104,42 @@ input[type=number] {
     box-sizing: border-box;
 }
 
+.pilih-btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.hitung-btn {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.reset-btn {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
 .main-content {
     display: flex;
+    
 }
 
 .main-content>aside {
     flex: 1;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: thin;
 }
 
 @media only screen and (max-width: 768px) {

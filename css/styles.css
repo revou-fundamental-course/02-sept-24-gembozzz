@@ -6,11 +6,13 @@
 
 .selection-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 8px;
 }
 
 .selection-btn {
     height: 30px;
+    width: -webkit-fill-available;
     border: none;
     border-radius: 8px;
 }
@@ -76,4 +78,20 @@ input[type=number] {
 
 .main-content>aside {
     flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content > aside {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content{
+        flex-direction: column;
+    }
 }
